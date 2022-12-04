@@ -4,7 +4,13 @@ import firebase from 'firebase/app';
 import 'firebase/firestore';
 
 const firebaseConfig = {
-  // your config
+  apiKey: "AIzaSyCUsMzm9b1ZgvgEYPEqWSTHZDdXIMO6kVo",
+  authDomain: "webcam-test-988d1.firebaseapp.com",
+  projectId: "webcam-test-988d1",
+  storageBucket: "webcam-test-988d1.appspot.com",
+  messagingSenderId: "485585163799",
+  appId: "1:485585163799:web:1f57910d7db053355b2e52",
+  measurementId: "G-10CC99TLM0"
 };
 
 if (!firebase.apps.length) {
